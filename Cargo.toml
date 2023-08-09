@@ -3,6 +3,16 @@ name = "sonar_rust_poc"
 version = "0.1.0"
 edition = "2021"
 
+[lib]
+name = "jsonlib"
+path = "src/lib.rs"
+
+[[bin]]
+name = "main"
+path = "src/main.rs"
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+serde = { version = "1.0.183", features = ["derive"] }
+serde_json = "1.0.104"
