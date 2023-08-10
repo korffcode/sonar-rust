@@ -4,7 +4,7 @@ use jsonlib::seasons_average_parser;
 
 fn main() {
 
-	let test_json = r#"{
+	const TEST_JSON: &str = r#"{
                 "__typename" : "ChampionshipGame",
                 "bracket_id" : 201,
                 "game_state" : "P",
@@ -16,7 +16,7 @@ fn main() {
 				"stadium" : "Riverfront"
             }"#;
 
-    let typename = seasons_average_parser::get_typename(test_json);
+    let typename = seasons_average_parser::get_typename(TEST_JSON);
 
     println!("The type is {}", typename);
 }
