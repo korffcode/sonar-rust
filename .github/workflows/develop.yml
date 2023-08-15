@@ -33,4 +33,7 @@ jobs:
         run: |
           sonar-scanner \
             --define sonar.cfamily.build-wrapper-output="${{ env.BUILD_WRAPPER_OUT_DIR }}" \
+            --define sonar.projectKey="korffcode_stdevops-poc" \
+            --define sonar.organization="korffcode" \
+            --define sonar.host.url="https://sonarcloud.io" \
             --define sonar.coverageReportPaths="${{ env.SONAR_COVERAGE_PATHS }}"
