@@ -1,0 +1,18 @@
+<coverage version="1">
+  <file path="src/main.rs">
+    <lineToCover lineNumber="6" covered="true"/>
+    <lineToCover lineNumber="7" covered="false"/>
+  </file>
+  <file path="src/lib.rs">
+    <lineToCover lineNumber="8" covered="true" branchesToCover="2" coveredBranches="2"/>
+    <lineToCover lineNumber="9" covered="true" branchesToCover="2" coveredBranches="2"/>
+    <lineToCover lineNumber="10" covered="true" branchesToCover="2" coveredBranches="2"/>
+    <lineToCover lineNumber="11" covered="true" branchesToCover="2" coveredBranches="2"/>
+    <lineToCover lineNumber="12" covered="true" branchesToCover="2" coveredBranches="2"/>
+    <lineToCover lineNumber="13" covered="true" branchesToCover="2" coveredBranches="2"/>
+    <lineToCover lineNumber="14" covered="true" branchesToCover="2" coveredBranches="2"/>
+    <lineToCover lineNumber="15" covered="true" branchesToCover="2" coveredBranches="2"/>
+    <lineToCover lineNumber="16" covered="true" branchesToCover="2" coveredBranches="2"/>
+    <lineToCover lineNumber="17" covered="true" branchesToCover="2" coveredBranches="2"/>
+  </file>
+</coverage>
