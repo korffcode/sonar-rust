@@ -1,9 +1,9 @@
 <coverage version="1">
-	<file path="src/main.rs">
+	<file path="src/main.js">
 		<lineToCover lineNumber="6" covered="true"/>
 		<lineToCover lineNumber="7" covered="false"/>
 	</file>
-	<file path="src/lib.rs">
+	<file path="src/lib.js">
 		<lineToCover lineNumber="8" covered="true" branchesToCover="2" coveredBranches="2"/>
 		<lineToCover lineNumber="9" covered="true" branchesToCover="2" coveredBranches="2"/>
 		<lineToCover lineNumber="10" covered="true" branchesToCover="2" coveredBranches="2"/>
